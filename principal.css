@@ -1,0 +1,241 @@
+/*Aplicando estilso a elementos HTML*/
+
+.bg-index{
+    background-color:mediumpurple;
+    background-image: url(imagenes/mandala1.png);
+    background-size: 330px;
+    background-repeat: repeat;}
+
+.titulo-index{
+    background-color: blueviolet;
+    text-align: center;
+    border: 1px blueviolet double;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 40px;}
+
+p{text-align: justify;}
+
+h2{
+    background-color: blueviolet;
+    text-align: center;
+    border: 1px blueviolet double;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: lighter;}
+
+.pipo{margin: 15px;
+    margin-left: 65px;
+}
+.tabla{text-align: center;
+    border: 3px blueviolet groove; border-radius: 15px}
+.casillas-tabla{border: 3px blueviolet groove; border-radius: 30px;
+                background-color: blueviolet;
+                text-align: center;
+                margin-left: 150px; margin-right: 150px;}
+
+a:visited{text-decoration: line-through; color: gold;}
+a:hover{font-style: italic; color:darkslateblue;}
+
+.right{text-align: right;}
+
+
+/*Aplicando estilos a capas*/
+
+#general{
+        border:1px groove blueviolet;
+        width: 1300px;
+        height: 1900px;
+        margin: auto;}
+
+#cabecera, #central, #pie{float: left;}
+
+#cabecera{
+    margin: auto;
+    width: 1100px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 80px;}
+
+#central{
+    border: 1px solid black;
+    margin: auto;
+    width: 1100px;
+    height: 1350px;
+    margin-top: 20px;
+    margin-left: 80px;}
+
+#cen-izq{
+    float: left;
+    width: 550px;
+    height: 414px;
+    border: 2px blueviolet solid;
+    margin-top: 20px;
+    margin-left: 12px;
+    padding: auto;}
+
+#cen-der{
+    float: right;
+    width: 500px;
+    border: 1px black solid;
+    margin-top: 210px;
+    margin-right: 12px;
+    padding:7px;
+    background-color: blueviolet;
+    color: goldenrod}
+
+#cen-down{
+    float: left;
+    width: 1000px;;
+    margin-top: 100px;
+    margin-left: 55px;
+    }
+
+#pie{
+    border: 1px solid black;
+    margin: auto;
+    width: 900px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 180px;}
+
+#pie-izq{
+    float: left;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;}
+
+#pie-der{
+    float: right;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding: 10px}
+
+/*estilo para los sabios*/
+
+#ge{border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 1300px;
+    height: 1100px;}
+#iz{
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 25px;}
+
+#de{float: right;
+    width: 500px;
+    height: 500px;
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-right: 80px;}
+
+#down{
+    float: left;
+    width: 1000px;
+    height: 130px;
+    margin-left: 150px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+#gen{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 1300px;
+    height: 3100px;}
+
+#a{float: left;
+    margin-left: 190px;}
+
+.p{text-align: center;
+    background-color: #7f42facc;
+    border: 5px solid rgb(127, 66, 250, 0.8);
+    border-radius: 30px;
+    padding: 20px;}
+.im{border: 5px solid rgb(127, 66, 250, 0.8);
+    border-radius: 30px;}
+
+
+.unstyledTable {
+    font-family: Tahoma, Geneva, sans-serif;
+    border: 2px solid #211142;
+    background-color: #7F42FA;
+    width: 900px;
+    text-align: center;
+    }
+    .unstyledTable td, .unstyledTable th {
+    border: 2px solid #211142;
+    padding: 10px 10px;
+    }
+
+/*estilo para vipassana*/
+
+    #principal{border:1px groove blueviolet;
+        width: 1300px;
+        height: 2850px;
+        margin: auto;}
+
+    #head{float: left;
+        border: 1px solid black;
+        width: 1100px;
+        height: 730px;
+        margin-left: 80px;
+        padding: 20px;}
+    #paso_1{float: left;
+        border: 1px solid black;
+        margin: auto;
+        width: 1100px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 80px;
+        padding: 20px;}
+    #paso_2{float: left;
+        border: 1px solid black;
+        margin: auto;
+        width: 1100px;
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 80px;
+        padding: 20px;}
+    #paso_3{float: left;
+        border: 1px solid black;
+        margin: auto;
+        width: 1100px;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 80px;
+        padding: 20px;}
+    #paso_4{float: left;
+        border: 1px solid black;
+        margin: auto;
+        width: 1100px;
+        height: 440px;
+        margin-top: 20px;
+        margin-left: 80px;
+        padding: 20px;}
+    #foot{float: right;
+        }
